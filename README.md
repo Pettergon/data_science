@@ -5,3 +5,6 @@ import conda environment from environment.yml
 
 export current env to environment.yml
 `conda env export | grep -v \"^prefix: \" > environment.yml`
+
+or
+`conda env export --name ENVNAME > environment.yml`
